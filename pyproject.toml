@@ -1,0 +1,19 @@
+[project]
+name = "gokart-mlflow-sample"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gokart>=1.7.0",
+    "mlflow>=2.17.1",
+    "openpyxl>=3.1.5",
+    "pypdf2>=3.0.1",
+    "python-terrier>=0.11.0",
+    "pytrec-eval>=0.5",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.7.1",
+]

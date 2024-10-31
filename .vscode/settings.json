@@ -1,0 +1,21 @@
+{
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit",
+        },
+        "editor.formatOnSave": true,
+    },
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll":"explicit",
+        "notebook.source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": true,
+}
